@@ -1,5 +1,5 @@
 ### Wheater App
 
 ```
-conosle.log("Hello world);
+This is the Weather app
 ```
