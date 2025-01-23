@@ -1,0 +1,34 @@
+@media screen and (max-width: 750px) {
+  .content_page_below_search_section {
+    justify-content: center;
+  }
+  .right_section {
+    display: none;
+    background-color: black;
+  }
+  .left_section {
+    width: 90%;
+  }
+  .location_div_in_left_section {
+    display: flex;
+  }
+  .temperature_div_in_left_section {
+    display: flex;
+    flex-grow: 2;
+    /* justify-content: space-between; */
+  }
+  .inner_discription_left_section p {
+    font-size: 1.7rem;
+  }
+  .landing_page_inpt_bttn_div button {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (min-width: 750px) {
+  .location_div_in_left_section {
+    display: none;
+  }
+  .temperature_div_in_left_section {
+    display: none;
+  }
+}
