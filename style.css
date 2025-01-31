@@ -202,6 +202,7 @@ p {
 .location_div_pc_container {
   height: 5%;
   width: 100%;
+  margin: 0px 0px 0px 1rem;
   /* border: 2px solid red; */
   display: flex;
   /* justify-content: center; */
@@ -211,12 +212,21 @@ p {
   display: flex;
   align-items: flex-end;
 }
-.location_div_pc_container div p,
-.location_div_pc_container div h3 {
-  margin: 0px;
-  height: fit-content;
+.location_div_pc_container div:nth-child(2) {
+  flex-grow: 2;
+  display: flex;
+  /* border: 2px solid red; */
+  margin: 0px 0px 0px 1rem;
+}
+.location_div_pc_container div:nth-child(2) p {
   color: var(--landing_poage_font_color);
-  font-size: var(--landing_page_font_size);
+  margin: 0px;
+  /* font-size: var(--landing_page_font_size); */
+}
+.location_div_pc_container div p {
+  margin: 0px;
+  color: var(--landing_poage_font_color);
+  /* font-size: var(--landing_page_font_size); */
 }
 /* Footer section is here */
 footer {

@@ -17,6 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" type="image/x-icon" href="./public/Fav_icon.png" />
     <!-- <link ref="stylesheet" href="Responsive_style.css" /> -->
     <link rel="stylesheet" href="Responsive_style.css" />
   </head>
@@ -77,10 +78,9 @@
         <section class="content_page_below_search_section">
           <div class="right_section">
             <section id="temperatur_for_desktop">
-              <div>
-                <h1 style="font-size: 4rem" class="Temperature_input">
-                  <sup>C</sup>
-                </h1>
+              <div style="display: flex">
+                <h1 style="font-size: 4rem" class="Temperature_input"></h1>
+                <h1><sup>C</sup></h1>
               </div>
             </section>
           </div>
@@ -90,7 +90,10 @@
               class="left_seciton_inner_div location_div_in_left_section"
             >
               <div class="inner_discription_left_section">
-                <p class="Location_input">Location</p>
+                <p>Location:</p>
+                <div style="display: flex">
+                  <p class="Location_input"></p>
+                </div>
               </div>
             </div>
             <div
@@ -99,7 +102,10 @@
             >
               <div class="inner_discription_left_section">
                 <p>Temperature</p>
-                <p class="Temperature_input"></p>
+                <div style="display: flex">
+                  <p class="Temperature_input"></p>
+                  <h2><sup>c</sup></h2>
+                </div>
               </div>
             </div>
             <div
@@ -108,7 +114,10 @@
             >
               <div class="inner_discription_left_section">
                 <p>Humidity</p>
-                <p id="Humidity_input"></p>
+                <div style="display: flex">
+                  <p id="Humidity_input"></p>
+                  <p>g/m <sup>3</sup></p>
+                </div>
               </div>
             </div>
             <div
@@ -151,7 +160,9 @@
         </section>
         <div class="location_div_pc_container">
           <div>
-            <h3>Location:</h3>
+            <p>Location:</p>
+          </div>
+          <div>
             <p class="location_pc_ Location_input"></p>
           </div>
         </div>

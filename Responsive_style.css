@@ -23,6 +23,9 @@
   .landing_page_inpt_bttn_div button {
     font-size: 1.7rem;
   }
+  .location_div_pc_container {
+    display: none;
+  }
 }
 @media screen and (min-width: 750px) {
   .location_div_in_left_section {
