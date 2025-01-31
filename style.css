@@ -13,6 +13,7 @@
 body {
   background-color: #212121;
   width: fit-content;
+  overflow-x: hidden;
 }
 h1,
 h2,
@@ -216,4 +217,41 @@ p {
   height: fit-content;
   color: var(--landing_poage_font_color);
   font-size: var(--landing_page_font_size);
+}
+/* Footer section is here */
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(
+    -90deg,
+    #020024 0%,
+    #090979 35%,
+    #00d4ff 100%
+  );
+}
+footer div:nth-child(1) {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+footer div:nth-child(1) a {
+  text-decoration: none;
+  color: white;
+}
+footer div:nth-child(2) {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+footer div:nth-child(2) a {
+  text-decoration: none;
+  color: white;
+}
+/* footer div:nth-child(3) {
+  width: 30%;
+} */
+footer div:first-child:hover,
+footer div:nth-child(2):hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
 }
