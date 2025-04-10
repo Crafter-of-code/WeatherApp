@@ -30,12 +30,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-image: linear-gradient(
-    90deg,
-    #020024 0%,
-    #090979 35%,
-    #00d4ff 100%
-  ); */
   background-image: url(./public/Background_image.jpg);
   background-position: center;
 }
@@ -84,12 +78,6 @@ p {
 .content_page {
   height: 100vh;
   width: 100vw;
-  /* background-image: linear-gradient(
-    90deg,
-    #020024 0%,
-    #090979 35%,
-    #00d4ff 100%
-  ); */
   background-image: url(./public/Background_image.jpg);
   background-position: center;
 }
@@ -254,9 +242,6 @@ footer div:nth-child(2) a {
   text-decoration: none;
   color: white;
 }
-/* footer div:nth-child(3) {
-  width: 30%;
-} */
 footer div:first-child:hover,
 footer div:nth-child(2):hover {
   text-decoration: underline;
